@@ -27,8 +27,6 @@ message Header {
   optional int32 binders_types_count = 3;
   //^number of possible binder types
 
-  optional int32 radius = 4;
-
   message ChainDescription {
     optional string chain_name = 1;
 
