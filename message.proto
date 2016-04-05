@@ -14,7 +14,7 @@ message Callback {
     INT_LIST = 3;
     DOUBLE_LIST = 4;
   }
-  optional Type type = 2;
+  optional Type callback_type = 2;
   optional int32 int_value = 3;
   optional double double_value = 4;
   repeated int32 int_list_value = 5 [packed=true];
