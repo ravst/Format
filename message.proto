@@ -1,9 +1,9 @@
 package bio.motions.format.proto;
 
 message Point {
-  optional int32 x = 1;
-  optional int32 y = 2;
-  optional int32 z = 3;
+  optional sint32 x = 1;
+  optional sint32 y = 2;
+  optional sint32 z = 3;
 }
 
 message Callback {
