@@ -71,3 +71,9 @@ message Keyframe {
   repeated Callback callbacks = 5;
   optional int64 step_counter = 6;
 }
+
+message SimulationState {
+  optional Header header = 1;
+  optional Keyframe state = 2;
+  //NEXT_ID=3
+}
